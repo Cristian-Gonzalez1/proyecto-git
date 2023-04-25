@@ -72,30 +72,29 @@ body {
    .header{
     flex-direction: column;
    }
-
 .listadonav {
     display: flex;
     flex-direction: column;
     align-items: center;
-     }
-    .mapasshows{
+}
+.mapasshows{
      display: flex;
      flex-direction: column;
      gap: 20px;
-    text-align: center;
-    }
+     text-align: center;
+}
 footer{
     text-align: center;
     gap: 10px;
 } 
 
 .livestream {
-    width: 375px;
+    display: none;
 }
 
 .historia {
-    border-image: 375px;
-
+    width: 375px;
+    background-position: center;
 }
 
 .cuerpocontacto {
@@ -121,3 +120,4 @@ h2 {
 h3 {
     font-size: 25px;
 }
+
