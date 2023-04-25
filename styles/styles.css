@@ -8,7 +8,7 @@ ul {
     list-style: none;
 }
 
-nav { 
+header { 
     background-color: #FFD2C9;
     padding: 20px;
     display: flex;
@@ -69,9 +69,10 @@ body {
 
 
 @media (max-width: 375px) {
-   .header{
+   header{
     flex-direction: column;
-   }
+    text-align: center;
+}
 .listadonav {
     display: flex;
     flex-direction: column;
