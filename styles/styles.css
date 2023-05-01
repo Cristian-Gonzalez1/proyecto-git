@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Phudu";
+    src: url(../fonts/phudu.ttf);
+}
+
+h1 {
+    font-family: "Phudu";
+    font-size: 40px;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +18,12 @@
 ul {
     list-style: none;
 }
+
+
+li {
+    font-family: "Phudu";
+}
+
 
 header { 
     background-color: #FFD2C9;
@@ -68,7 +85,7 @@ body {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
    header{
     flex-direction: column;
     text-align: center;
@@ -110,10 +127,6 @@ footer{
 }
   
 
-p { 
-    font-size: 20px;
-}
-
 h2 {
     font-size: 30px;
 }
@@ -121,4 +134,3 @@ h2 {
 h3 {
     font-size: 25px;
 }
-
