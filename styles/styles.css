@@ -25,14 +25,19 @@ li {
 }
 
 
+body {
+    background-color: aliceblue;
+}
+
+
 header { 
-    background-color: #FFD2C9;
-    padding: 20px;
+    background-color: #8B0000;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size: 2rem;
 }
+
 
 .listadonav {
     display: flex;
@@ -40,11 +45,13 @@ header {
 }
 
 footer {
-    background-color: #91e4fb;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 .historia { 
-background-image: url(historia.jpg);
+background-image: url(/imagenes/historia.jpg);
 background-attachment: fixed;
 display: flex;
 flex-direction: column;
@@ -59,9 +66,6 @@ align-items: center;
     font-size: 20px;
 }
 
-body {
-    background-color: beige;
-}
 
 .albumes {
    text-align: center;
@@ -85,7 +89,7 @@ body {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 475px) {
    header{
     flex-direction: column;
     text-align: center;
@@ -111,7 +115,7 @@ footer{
 }
 
 .historia {
-    width: 375px;
+    width: 475px;
     background-position: center;
 }
 
@@ -120,10 +124,13 @@ footer{
     text-align: center;
     padding: 20px; 
 }
+
 }
 
 .listafooter {
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
   
 
@@ -133,4 +140,16 @@ h2 {
 
 h3 {
     font-size: 25px;
+}
+
+
+.fa-brands {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.logonav {
+    width: 500px;
+    height: 150px;
 }
