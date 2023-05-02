@@ -3,6 +3,12 @@
     src: url(../fonts/phudu.ttf);
 }
 
+@font-face {
+    font-family: "Comme";
+    src: url(../fonts/comme.ttf);
+}
+
+
 h1 {
     font-family: "Phudu";
     font-size: 40px;
@@ -136,10 +142,13 @@ footer{
 
 h2 {
     font-size: 30px;
+    text-align: center;
+    font-family: "Comme";
 }
 
 h3 {
     font-size: 25px;
+    font-family: "Comme";
 }
 
 
@@ -152,4 +161,54 @@ h3 {
 .logonav {
     width: 500px;
     height: 150px;
+}
+
+.cuerpocontacto {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input {
+    background-color: #F08080;
+    border: 2px solid;
+    width: 250px;
+    height: 30px;
+}
+
+textarea {
+    background-color: #F08080;
+    border: 2px solid;
+}
+
+button {
+    font-size: 20px;
+}
+
+.checkbox {
+    width: 20px;
+}
+
+label {
+    font-size: 25px;
+}
+
+select {
+    background-color: #F08080;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 880px;
+    border: 2px solid;
+}
+
+p {
+    font-size: 25px;
+    font-family: "Comme";
+    text-align: center;
+}
+
+
+.video {
+    text-align: center;
 }

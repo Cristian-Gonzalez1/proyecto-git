@@ -19,26 +19,43 @@
         </ul> 
     </nav>
 </header>
-<main class="cuerpocontacto">
-    <h2>Dejanos tu mensaje!</h2>
-    <form action="/my-handling-form-page" method="post">
-        <div>
-           <label for="name">Nombre y Apellido</label>
+<main>
+    <div>
+        <h2>Dejanos tu mensaje!</h2>
+    </div>
+    <div class="cuerpocontacto">
+        <form action="/my-handling-form-page" method="post"></form>
+    </div>
+        <div class="cuerpocontacto">
+           <label for="name"><h2>Nombre y Apellido</h2></label>
            <input type="text" id="name" name="user_name">
         </div>  
-    <div>
-           <label for="mail">Correo electrónico:</label>
+    <div class="cuerpocontacto">
+           <label for="mail"><h2>Correo electrónico:</h2></label>
            <input type="email" id="mail" name="user_mail">
-         </div>  
-         <div>
-           <label for="msg">Teléfono:</label>
+    </div>  
+         <div class="cuerpocontacto">
+           <label for="msg"><h2>Teléfono:</h2></label>
            <input type="msg" id="number" name="user_number">
         </div>
         <div>
-            <label for="Mensaje">Mensaje</label>
+            <label for="asunto"><h2>Asunto del mensaje</h2></label> 
+                <select name="asunto" id="asunto">
+                    <option value="">Mensaje</option>    
+                    <option value="">Reclamo</option>    
+                    <option value="">Saludo</option> 
+                    <option value="">Otro</option>         
+                </select>
+        </div>
+        <div class="cuerpocontacto">
+            <label for="Mensaje"><h2>Mensaje</h2></label>
             <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>     
         </div>
-    <div>
+    <div class="cuerpocontacto">
+        <label for="noticias"> Desea recibir noticias?</label> 
+        <input type="checkbox" name="noticias" id="noticias" class="checkbox"> 
+    </div>
+        <div class="cuerpocontacto">
         <button type="submit">Envíar</button>
     </div>    
     </form>
