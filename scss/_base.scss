@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Phudu";
+    src: url(../fonts/phudu.ttf);
+}
+
+@font-face {
+    font-family: "Comme";
+    src: url(../fonts/comme.ttf);
+}
+
+h1 {
+    font-family: "Phudu";
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+li {
+    font-family: "Phudu";
+}
+
+
+body {
+    background-color: aliceblue;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Comme";
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "Comme";
+}
+
+p {
+    font-size: 25px;
+    font-family: "Comme";
+    text-align: center;
+}
+

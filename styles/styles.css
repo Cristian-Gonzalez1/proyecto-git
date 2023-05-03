@@ -1,213 +1,238 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "Phudu";
-    src: url(../fonts/phudu.ttf);
+  font-family: "Phudu";
+  src: url(../fonts/phudu.ttf);
 }
-
 @font-face {
-    font-family: "Comme";
-    src: url(../fonts/comme.ttf);
+  font-family: "Comme";
+  src: url(../fonts/comme.ttf);
 }
-
-
 h1 {
-    font-family: "Phudu";
-    font-size: 40px;
+  font-family: "Phudu";
+  font-size: 40px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
-
 
 li {
-    font-family: "Phudu";
+  font-family: "Phudu";
 }
-
 
 body {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
-
-header { 
-    background-color: #8B0000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Comme";
 }
 
+h3 {
+  font-size: 25px;
+  font-family: "Comme";
+}
+
+p {
+  font-size: 25px;
+  font-family: "Comme";
+  text-align: center;
+}
+
+header {
+  background-color: #8B0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
 
 .listadonav {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
+}
+
+.logonav {
+  width: 500px;
+  height: 150px;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
-.historia { 
-background-image: url(../imagenes/historia.jpg);
-background-attachment: fixed;
-display: flex;
-flex-direction: column;
-align-items: center;
+.listafooter {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.video {
+  text-align: center;
+}
+
+.cuerpocontacto {
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+input {
+  background-color: #F08080;
+  border: 2px solid;
+  width: 250px;
+  height: 30px;
+}
+
+textarea {
+  background-color: #F08080;
+  border: 2px solid;
+}
+
+button {
+  font-size: 20px;
+}
+
+.checkbox {
+  width: 20px;
+}
+
+label {
+  font-size: 25px;
+}
+
+select {
+  background-color: #F08080;
+  padding: 15px;
+  font-size: 20px;
+  margin-left: 880px;
+  border: 2px solid;
+}
+
+.historia {
+  background-image: url(../imagenes/historia.jpg);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .textohistoria {
-    display: flex;
-    width: 250px;
-    flex-direction: column;
-    align-items: center;
-    font-size: 20px;
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
 }
 
-
 .albumes {
-   text-align: center;
-   font-size: 20px; 
+  text-align: center;
+  font-size: 20px;
 }
 
 .livestream {
   flex-flow: row;
   justify-content: space-between;
-    
 }
 
-
 .shows {
-    text-align: center;
+  text-align: center;
 }
 
 .mapasshows {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
-
-
-@media (max-width: 475px) {
-   header{
-    flex-direction: column;
-    text-align: center;
-}
-.listadonav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.mapasshows{
-     display: flex;
-     flex-direction: column;
-     gap: 20px;
-     text-align: center;
-}
-footer{
-    text-align: center;
-    gap: 10px;
-} 
-
-.livestream {
-    display: none;
-}
-
-.historia {
-    width: 475px;
-    background-position: center;
-}
-
-.cuerpocontacto {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px; 
-}
-
-}
-
-.listafooter {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-}
-  
-
-h2 {
-    font-size: 30px;
-    text-align: center;
-    font-family: "Comme";
-}
-
-h3 {
-    font-size: 25px;
-    font-family: "Comme";
-}
-
-
-.fa-brands {
-    margin-left: 10px;
-    padding: 10px;
-    font-size: 25px;
-}
-
-.logonav {
-    width: 500px;
-    height: 150px;
-}
-
-.cuerpocontacto {
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-    font-size: 20px;
-}
-
-input {
-    background-color: #F08080;
-    border: 2px solid;
-    width: 250px;
-    height: 30px;
-}
-
-textarea {
-    background-color: #F08080;
-    border: 2px solid;
-}
-
-button {
-    font-size: 20px;
-}
-
-.checkbox {
-    width: 20px;
-}
-
-label {
-    font-size: 25px;
-}
-
-select {
-    background-color: #F08080;
-    padding: 15px;
-    font-size: 20px;
-    margin-left: 880px;
-    border: 2px solid;
-}
-
-p {
-    font-size: 25px;
-    font-family: "Comme";
-    text-align: center;
-}
-
 
 .video {
-    text-align: center;
+  text-align: center;
 }
+
+.video {
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .listadonav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapasshows {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    gap: 10px;
+  }
+  .livestream {
+    display: none;
+  }
+  .historia {
+    width: 570px;
+    background-position: cover;
+    align-items: center;
+  }
+  .cuerpocontacto {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 451px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .listadonav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapasshows {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    gap: 10px;
+  }
+  .livestream {
+    display: none;
+  }
+  .historia {
+    width: 1024px;
+  }
+  .cuerpocontacto {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

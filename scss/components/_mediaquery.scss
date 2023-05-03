@@ -1,0 +1,75 @@
+@media (max-width: 450px) {
+    header{
+     flex-direction: column;
+     text-align: center;
+ }
+ .listadonav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .mapasshows{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+ }
+ footer{
+     text-align: center;
+     gap: 10px;
+ } 
+ 
+ .livestream {
+     display: none;
+ }
+ 
+ .historia {
+     width: 570px;
+     background-position: cover;
+     align-items: center;
+    }
+ 
+ .cuerpocontacto {
+     flex-direction: column;
+     text-align: center;
+     padding: 20px; 
+ }
+ }
+
+@media (max-width: 1024px) and (min-width: 451px) {
+    header{
+     flex-direction: column;
+     text-align: center;   
+    }
+    
+    .listadonav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapasshows{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+ }
+ footer{
+     text-align: center;
+     gap: 10px;
+ } 
+
+ .livestream {
+     display: none;
+ }
+ 
+ .historia {
+     width: 1024px;
+    }
+ 
+ .cuerpocontacto {
+     flex-direction: column;
+     text-align: center;
+     padding: 20px; 
+ }
+}
