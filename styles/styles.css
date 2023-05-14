@@ -33,17 +33,30 @@ h2 {
   font-size: 30px;
   text-align: center;
   font-family: "Comme";
+  padding: 10px;
 }
 
 h3 {
   font-size: 25px;
   font-family: "Comme";
+  padding: 10px;
 }
 
 p {
   font-size: 25px;
   font-family: "Comme";
   text-align: center;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Phudu";
+}
+
+i {
+  color: white;
 }
 
 header {
@@ -132,19 +145,21 @@ select {
 }
 
 .historia {
-  background-image: url(../imagenes/historia.jpg);
+  background-image: url(../imagenes/historia3.jpg);
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  color: white;
 }
 
 .textohistoria {
-  display: flex;
-  width: 250px;
-  flex-direction: column;
-  align-items: center;
+  height: 450px;
+  width: 1500px;
   font-size: 20px;
+  padding: 50px;
+  color: white;
 }
 
 .albumes {
@@ -159,11 +174,13 @@ select {
 
 .shows {
   text-align: center;
+  justify-content: center;
 }
 
 .mapasshows {
   display: flex;
   gap: 25px;
+  justify-content: center;
 }
 
 .video {
