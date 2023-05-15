@@ -257,6 +257,17 @@ select {
     height: 450px;
     font-size: 15px;
   }
+  #asunto {
+    margin-left: 160px;
+  }
+  .imagen {
+    width: 425px;
+  }
+  .videos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 @media (max-width: 1024px) and (min-width: 451px) {
   header {
@@ -298,6 +309,20 @@ select {
   }
   .textohistoria {
     width: 1020px;
+  }
+  #asunto {
+    margin-left: 445px;
+  }
+  img {
+    width: 1001px;
+  }
+  .imagen {
+    width: 1001px;
+  }
+  .videos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
 
