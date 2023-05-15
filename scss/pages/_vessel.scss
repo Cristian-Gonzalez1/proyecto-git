@@ -1,9 +1,9 @@
-.video {
-    text-align: center;
+.imagen {
+    width: 1900px;
 }
 
-.imagen {
-    margin-left: 715px;
-    height: 500px;
-    width: 500px;
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }

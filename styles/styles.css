@@ -26,7 +26,7 @@ li {
 }
 
 body {
-  background-color: aliceblue;
+  background-color: #B1EAF1;
 }
 
 h2 {
@@ -40,6 +40,13 @@ h3 {
   font-size: 25px;
   font-family: "Comme";
   padding: 10px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 15px;
+  font-family: "Comme";
+  text-align: center;
 }
 
 p {
@@ -95,14 +102,8 @@ footer {
   font-size: 25px;
 }
 
-.video {
+.blurryface {
   text-align: center;
-}
-
-.imagen {
-  margin-left: 715px;
-  height: 500px;
-  width: 500px;
 }
 
 .cuerpocontacto {
@@ -144,6 +145,13 @@ select {
   border: 2px solid;
 }
 
+.contacto {
+  background-color: #F08080;
+  width: 400px;
+  margin: auto;
+  border-style: solid;
+}
+
 .historia {
   background-image: url(../imagenes/historia3.jpg);
   background-attachment: fixed;
@@ -177,30 +185,24 @@ select {
   justify-content: center;
 }
 
-.mapasshows {
+.contenedor {
   display: flex;
-  gap: 25px;
   justify-content: center;
+  gap: 150px;
 }
 
-.video {
+.trench {
   text-align: center;
 }
 
 .imagen {
-  margin-left: 715px;
-  height: 500px;
-  width: 500px;
+  width: 1900px;
 }
 
-.video {
-  text-align: center;
-}
-
-.imagen {
-  margin-left: 715px;
-  height: 500px;
-  width: 500px;
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 @media (max-width: 450px) {
