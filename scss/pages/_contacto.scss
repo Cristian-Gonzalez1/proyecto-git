@@ -15,6 +15,7 @@ input {
 textarea {
     background-color: #F08080;
     border: 2px solid;
+    align-items: center;
 }
 
 button {
@@ -33,7 +34,7 @@ select {
     background-color: #F08080;
     padding: 15px;
     font-size: 20px;
-    margin-left: 880px;
+    justify-content: center;
     border: 2px solid;
 }
 
@@ -42,4 +43,8 @@ select {
     width: 400px;
     margin: auto;
     border-style:solid;
+}
+
+#asunto {
+    margin-left: 880px;
 }
