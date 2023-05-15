@@ -215,7 +215,7 @@ select {
     flex-direction: column;
     align-items: center;
   }
-  .mapasshows {
+  .contenedor {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -225,18 +225,32 @@ select {
     text-align: center;
     gap: 10px;
   }
-  .livestream {
-    display: none;
+  .logonav {
+    width: 450px;
   }
-  .historia {
-    width: 570px;
-    background-position: cover;
-    align-items: center;
+  img {
+    width: 425px;
+  }
+  iframe {
+    width: 350px;
+  }
+  #historia {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    object-fit: cover;
   }
   .cuerpocontacto {
     flex-direction: column;
     text-align: center;
     padding: 20px;
+  }
+  .textohistoria {
+    width: 450px;
+    height: 450px;
+    font-size: 15px;
   }
 }
 @media (max-width: 1024px) and (min-width: 451px) {
@@ -269,6 +283,16 @@ select {
     flex-direction: column;
     text-align: center;
     padding: 20px;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .textohistoria {
+    width: 1020px;
   }
 }
 
